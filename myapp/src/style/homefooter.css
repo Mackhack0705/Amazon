@@ -4,9 +4,37 @@
     height: 300px;
     padding-top: 30px;
 }
-table, th, td {
+table,tr td {
+    font-size: 14px;
 }
 
-table {
-    margin: 5px 350px 40px;
+.table1 {
+    margin: 5px 350px 10px;
+}
+.table2 {
+    margin: 10px 350px 0px;
+}
+td {
+    padding: 0 10px 15px;
+}
+ .row1 td {
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 10px 0px;
+}
+.para:hover {
+text-decoration: underline;
+}
+
+td p {
+    color: #d6d6d6;
+}
+
+.rights {
+    margin-top: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+.rights a {
+    text-decoration: none;
 }
