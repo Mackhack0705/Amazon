@@ -48,3 +48,7 @@
   position: relative;
   bottom: 300px;
 }
+
+.page {
+  position: fixed;
+}

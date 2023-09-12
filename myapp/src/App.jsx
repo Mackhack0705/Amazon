@@ -5,6 +5,7 @@ import Nbar from './Components/Nbar';
 import HomeCarousel from './Components/HomeCarousel';
 import ImgCard from './Components/ImgCard';
 import About from './Components/About';
+import HomeFooter from './Components/HomeFooter';
 
 const nCard = (val) => {
   return (
@@ -32,7 +33,7 @@ function App() {
   }, []);
   return (
     <div>
-      <Nbar />
+      <Nbar className='page'/>
       <HomeCarousel />
       <div className="projectCard">
         {
@@ -42,8 +43,9 @@ function App() {
               </div>
           ))
         }
-        <About />
       </div>
+      <About />
+      <HomeFooter />
     </div>
   );
 }

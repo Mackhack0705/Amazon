@@ -1,3 +1,4 @@
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import React from 'react'
 import '../style/nbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -42,12 +43,14 @@ const Nbar = () => {
           <a href="#">
             <img src={indianflag} alt="indian flag" />
             <p>EN</p>
+            <ArrowDropDownIcon className='arrow' id='arrow1' fontSize='small'/>
           </a>
         </div>
         <div className="tabs">
           <a href="#">
             <p className='firstPara'>Hello, sign in</p>
             <p className='secondPara'>Accounts & Lists</p>
+            <ArrowDropDownIcon className='arrow' fontSize='small'/>
           </a>
         </div>
         <div className="tabs">

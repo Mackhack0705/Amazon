@@ -18,6 +18,7 @@ p {
     color: #ffff;
     line-height: 1;
 }
+
 #brand p{
     font-size: 25px;
 }
@@ -40,7 +41,7 @@ p {
 .tabs {
     height: 55px;
     margin: 5px 10px;
-    padding: 10px 10px;
+    padding: 10px 6px;
 }
 .tabs:hover {
     border: 1px solid #ffff;
@@ -100,11 +101,13 @@ p {
 .firstPara {
     font-size: 13px;
 }
-
+.secondPara {
+    display: inline;
+}
 #cartCount {
     position: absolute;
     top: 0.7%;
-    right: 6%;
+    right: 5.8%;
     color: #febd69;
     font-size: 18px;
     font-weight: 600;
@@ -124,4 +127,12 @@ p {
 .cart span {
     position: relative;
     top: 6px;
+}
+.arrow {
+    color: #ffff;
+}
+#arrow1 {
+    position: relative;
+    top: 7px;
+    right: 3px;
 }
