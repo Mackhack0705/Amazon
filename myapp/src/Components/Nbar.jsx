@@ -7,7 +7,8 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import indianflag from '../assets/png/india.jpg'
 import cart from '../assets/png/cart.png'
 
-const Nbar = () => {
+const Nbar = ({SelectedMode}) => {
+ 
   return (
     <div>
       <div className="navBar">
@@ -61,7 +62,7 @@ const Nbar = () => {
         </div>
         <div className="tabs" id='tab4'>
           <a href="#">
-            <span id='cartCount'>0</span>
+            <span id='cartCount'>{SelectedMode}</span>
             <div className='cart'>
             <img src={cart} alt="cart image" />
             <span>Cart</span>

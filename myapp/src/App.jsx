@@ -11,13 +11,19 @@ const nCard = (val) => {
   return (
     <ImgCard
       key={val.id}
-      title={val.title}
       imgurl={val.image}
+      title={val.title}
+      price={val.price}
+      rate={val.rating.rate}
+      count={val.rating.count}
+      // desc = {val.description}
+      setSelectedMode={setSelectedMode}
     />
   )
 }
 function App() {
   const [Data, setData] = useState([]);
+  const [SelecteMode,setSelectedMode] = useState(0);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -33,7 +39,7 @@ function App() {
   }, []);
   return (
     <div>
-      <Nbar className='page'/>
+      <Nbar className='page' SelecteMode={SelecteMode}/>
       <HomeCarousel />
       <div className="projectCard">
         {
