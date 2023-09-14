@@ -1,25 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../style/cards.css';
-import Nbar from './Nbar';
 
-const ImgCard = (val, {setSelectedMode}) => {
-  const [Count,setCount] = useState(0);
-  const handleadd = (mode) => {
-    setCount(Count + 1);
-    setSelectedMode(mode);
-  }
-  const handleremove = (mode) => {
-    if(Count < 0) {
-      alert("No more Products are available");
-    }
-    else {
-      setCount(Count-1);
-      setSelectedMode(mode);
-    }
-  }
+const ImgCard = (val) => {
+  
   return (
+    <>
     <div className="productsCard">
     <div className='box'>
     <Card className='card' style={{ width: '18rem',height: '38rem'}}>
@@ -28,16 +15,17 @@ const ImgCard = (val, {setSelectedMode}) => {
         <Card.Title className='title'>{val.title}</Card.Title>
         <Card.Text className='rate price'>{val.rate}⭐⭐⭐⭐⭐{val.count}</Card.Text>
         <Card.Text className='price'>
-        <sup className='sup'>$</sup>
+        <sup className='sup'>$ </sup>
         {val.price}
         </Card.Text>
         <Card.Text className='txt price'>Ships to india</Card.Text>
-        <Button variant="primary" className='button' id='atc' onClick={handleadd}>Add to Cart</Button>
-        <Button variant="primary" className='button' id='bn' onClick={handleremove}>Buy Now</Button>
+        <Button variant="primary" className='button' id='atc' onClick={val.onButtonClick1}>Add to Cart</Button>
+        <Button variant="primary" className='button' id='bn' onClick={val.onButtonClick2}>Buy Now</Button>
       </Card.Body>
     </Card>
     </div>
     </div>
+    </>
   )
 }
 

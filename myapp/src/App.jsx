@@ -7,7 +7,7 @@ import ImgCard from './Components/ImgCard';
 import About from './Components/About';
 import HomeFooter from './Components/HomeFooter';
 
-const nCard = (val) => {
+const nCard = (val,{handleadd},{handleremove}) => {
   return (
     <ImgCard
       key={val.id}
@@ -17,13 +17,25 @@ const nCard = (val) => {
       rate={val.rating.rate}
       count={val.rating.count}
       // desc = {val.description}
-      setSelectedMode={setSelectedMode}
+      onButtonClick1={handleadd}
+      onButtonClick2={handleremove}
     />
   )
 }
 function App() {
   const [Data, setData] = useState([]);
-  const [SelecteMode,setSelectedMode] = useState(0);
+  const [Count,setCount] = useState(0);
+  const handleadd = (mode) => {
+    setCount(Count + 1);
+  }
+  const handleremove = (mode) => {
+    if(Count <= 0) {
+      alert("No more Products are available");
+    }
+    else {
+      setCount(Count-1);
+    }
+  }
 
   useEffect(() => {
     const fetchData = async () => {
@@ -39,13 +51,13 @@ function App() {
   }, []);
   return (
     <div>
-      <Nbar className='page' SelecteMode={SelecteMode}/>
+      <Nbar className='page' count={Count}/>
       <HomeCarousel />
       <div className="projectCard">
         {
           Data.map((val,index) => (
               <div key={val.id}>
-              {nCard(val)} 
+              {nCard(val,{handleadd},{handleremove})} 
               </div>
           ))
         }

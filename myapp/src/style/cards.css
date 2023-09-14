@@ -1,5 +1,6 @@
 
 .card {
+    z-index: 1;
     margin: 5px 30px;
     padding-top: 20px;
     padding-left: 15px;
@@ -26,9 +27,9 @@
 }
 .sup {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 12px;
     position: relative;
-    top: -3px;
+    top: -8px;
 }
 .txt {
     font-size: 10px;

@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const HomeCarousel = () => {
   return (
     <div>
-    <Carousel>
+    <Carousel style={{zIndex:'0'}}>
       <Carousel.Item>
         <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/GW/July/Apay/Deals-Unrec-PC-3000_2._CB598748121_.jpg" alt="" width="100%" height="100%"/>
       </Carousel.Item>
