@@ -1,16 +1,16 @@
 @import "~@flaticon/flaticon-uicons/css/all/all";
 .navBar {
+    border: 2px solid green;
     width: 100%;
-    display: flex;
     background-color: #131921;
+    display: flex;
 }
 img {
     height: 100%;
     width: 100%;
 }
-.brand {
-    height: 8%;
-    width: 10%;
+#brand {
+    width: 8%;
 }
 p {
     margin: 0 !important;
@@ -20,15 +20,12 @@ p {
     line-height: 1;
 }
 
-#brand p{
-    font-size: 25px;
-}
 #brand span {
     font-size: 15px;
     color: #ffff;
 }
 
-#brand img {
+#brand a img {
     width: 80%;
     margin-top: 10px;
 }
@@ -71,7 +68,6 @@ p {
     padding-bottom: 2px;
 }
 .searchBar {
-    border: 2px solid red;
     height: 50px;
     width: 40%;
     display: flex;
@@ -104,6 +100,7 @@ p {
     font-size: 13px;
 }
 .secondPara {
+    font-size: 16px;
     display: inline;
 }
 #cartCount {
@@ -144,53 +141,62 @@ p {
     right: 3px;
 }
 
-@media (max-width: 1499px) {
+/* 2xl */
+@media (max-width: 1445px) {
     .firstPara {
-        font-size: 0.78rem;
+        font-size: 11px;
     }
     .secondPara {
-        font-size: 0.98rem;
-    }
-}
-
-/* 2xl */
-@media (max-width: 1536px) {
-    .container {
-      max-width: 1280px;
+        font-size: 14;
     }
   }
   
-  /* xl */
+  /* x
+  l */
   @media (max-width: 1280px) {
-    .container {
-      max-width: 1024px;
+    .navBar {
+        width: 100%;
+        display: flex;
+        background-color: #131921;
     }
   }
   
-  /* lg */
+  /* lg 
+  */
   @media (max-width: 1024px) {
-    .container {
-      max-width: 768px;
+    .navBar {
+        width: 100%;
+        display: flex;
+        background-color: #131921;
     }
   }
   
-  /* md */
+  /* md 
+  */
   @media (max-width: 768px) {
-    .container {
-      max-width: 640px;
+    .navBar {
+        width: 100%;
+        display: flex;
+        background-color: #131921;
     }
   }
   
-  /* sm */
+  /* sm 
+  */
   @media (max-width: 640px) {
-    .container {
-      max-width: 475px;
+    .navBar {
+        width: 100%;
+        display: flex;
+        background-color: #131921;
     }
   }
   
-  /* xs */
+  /* xs 
+  */
   @media (max-width: 475px) {
-    .container {
-      width: 100%;
+    .navBar {
+        width: 100%;
+        display: flex;
+        background-color: #131921;
     }
   }
