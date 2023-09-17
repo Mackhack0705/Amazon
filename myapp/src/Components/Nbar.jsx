@@ -65,7 +65,7 @@ const Nbar = (props) => {
             <span id='cartCount'>{props.count}</span>
             <div className='cart'>
             <img src={cart} alt="cart image" />
-            <span>Cart</span>
+            <p>Cart</p>
             </div>
           </a>
         </div>

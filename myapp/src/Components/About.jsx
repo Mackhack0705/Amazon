@@ -2,7 +2,7 @@ import React from 'react'
 import '../style/about.css'
 const About = () => {
   return (
-    <div>
+    <div className='sec'>
       <div className="help"><a href="#">Back to top</a></div>
       <div className="about">
         <ul>

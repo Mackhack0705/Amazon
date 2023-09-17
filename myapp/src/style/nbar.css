@@ -1,5 +1,6 @@
 @import "~@flaticon/flaticon-uicons/css/all/all";
 .navBar {
+    width: 100%;
     display: flex;
     background-color: #131921;
 }
@@ -8,8 +9,8 @@ img {
     width: 100%;
 }
 .brand {
-    height: 65px;
-    width: 150px;
+    height: 8%;
+    width: 10%;
 }
 p {
     margin: 0 !important;
@@ -40,7 +41,7 @@ p {
 
 .tabs {
     height: 55px;
-    margin: 5px 10px;
+    margin: 5px 8px;
     padding: 10px 6px;
 }
 .tabs:hover {
@@ -70,14 +71,15 @@ p {
     padding-bottom: 2px;
 }
 .searchBar {
+    border: 2px solid red;
     height: 50px;
-    width: 620px;
+    width: 40%;
     display: flex;
     margin: 7px 30px;
 }
 .searchBar input {
-    height: 50px;
-    width: 480px;
+    height: 98%;
+    width: 70%;
     border: none;
     outline: none;
 }
@@ -86,12 +88,12 @@ p {
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    height: 50px;
-    width: 120px;
+    height: 98%;
+    width: 20%;
     background-color: #e6e6e6;
 }
 .searchIcon {
-    width: 60px;
+    width: 10%;
     background-color: #febd69;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -105,28 +107,33 @@ p {
     display: inline;
 }
 #cartCount {
-    position: absolute;
-    top: 0.7%;
-    right: 5.8%;
+    position: relative;
+    top: -4px;
+    left: 37px;
     color: #febd69;
     font-size: 18px;
     font-weight: 600;
 }
+#tab4 {
+    width: 8%;
+    padding: 2px;
+}
 #tab4 a {
     color: #ffff;
+    display: flex;
 }
 .cart {
-    width: 80px;
-    height: 100%;
+    width: 100%;
+    height: 95%;
     display: flex;
 }
 .cart img {
-    width: 100%;
+    width: 57%;
     height: 100%;
 }
-.cart span {
+.cart p {
     position: relative;
-    top: 6px;
+    top: 15px;
 }
 .arrow {
     color: #ffff;
@@ -136,3 +143,54 @@ p {
     top: 7px;
     right: 3px;
 }
+
+@media (max-width: 1499px) {
+    .firstPara {
+        font-size: 0.78rem;
+    }
+    .secondPara {
+        font-size: 0.98rem;
+    }
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }

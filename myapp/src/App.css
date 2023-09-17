@@ -52,3 +52,44 @@
 .page {
   position: fixed;
 }
+/* 2xl */
+@media (max-width: 1536px) {
+  .projectCard {
+    bottom: 300px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .projectCard {
+    bottom: 250px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .projectCard {
+    bottom: 200px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .projectCard {
+    bottom: 150px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .projectCard {
+    bottom: 120px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .projectCard {
+    bottom: 100px;
+  }
+}
