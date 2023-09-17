@@ -90,6 +90,6 @@
 /* xs */
 @media (max-width: 475px) {
   .projectCard {
-    bottom: 100px;
+    bottom: 70px;
   }
 }

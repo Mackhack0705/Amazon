@@ -10,8 +10,8 @@
     height: 15rem !important;
 }
 .title {
-    margin-top: 30px !important;
-    margin-left: 5px ;
+    margin-top: 10% !important;
+    margin-left: 2% ;
     text-align: left;
 }
 .price {
@@ -39,7 +39,7 @@
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 22px !important;
-    width: 200px;
+    width: 80%;
     outline: none;
     border: none !important;
 }
@@ -50,3 +50,74 @@
 #bn {
     background-color: #ffa41c;
 }
+/* 2xl */
+@media (max-width: 1536px) {
+    .card {
+      max-width: 18rem;
+      height: 38rem;
+    }
+    .img {
+        width: 16rem !important;
+        height: 15rem !important;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .card {
+      max-width: 17rem;
+      height: 37rem;
+    }
+    .img {
+        width: 15rem !important;
+        height: 14rem !important;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .card {
+      max-width: 16rem;
+      height: 36rem;
+    }
+    .img {
+        width: 14rem !important;
+        height: 13rem !important;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 15rem;
+      height: 35rem;
+    }
+    .img {
+        width: 13rem !important;
+        height: 12rem !important;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .card {
+      max-width: 14rem;
+      height: 34rem;
+    }
+    .img {
+        width: 12rem !important;
+        height: 11rem !important;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .card {
+      width: 13rem;
+      max-height: 38rem;
+    }
+    .img {
+        width: 11rem !important;
+        height: 10rem !important;
+    }
+  }

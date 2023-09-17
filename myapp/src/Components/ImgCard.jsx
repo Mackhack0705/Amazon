@@ -11,7 +11,7 @@ const ImgCard = (val) => {
     <div className='box'>
     <Card className='card' style={{ width: '18rem',height: '38rem'}}>
       <Card.Img className='img' variant="top" src={val.imgurl} />
-      <Card.Body>
+      <Card.Body className='cardbody'>
         <Card.Title className='title'>{val.title}</Card.Title>
         <Card.Text className='rate price'>{val.rate}⭐⭐⭐⭐⭐{val.count}</Card.Text>
         <Card.Text className='price'>
