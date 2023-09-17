@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amazon/static/css/main.389e36c2.css",
-    "main.js": "/Amazon/static/js/main.cbf2ff7c.js",
+    "main.css": "/Amazon/static/css/main.5d35b771.css",
+    "main.js": "/Amazon/static/js/main.d16702cf.js",
     "static/js/787.d3befce1.chunk.js": "/Amazon/static/js/787.d3befce1.chunk.js",
     "static/media/uicons-regular-rounded-QXG46O7V.eot": "/Amazon/static/media/uicons-regular-rounded-QXG46O7V.7f3cbccd6c1dad5b5c3d.eot",
     "static/media/uicons-bold-rounded-CJXWQMMG.eot": "/Amazon/static/media/uicons-bold-rounded-CJXWQMMG.d839cd24e81b03a3ae73.eot",
@@ -25,12 +25,12 @@
     "static/media/uicons-brands-T5E3MAIR.woff": "/Amazon/static/media/uicons-brands-T5E3MAIR.475adb95157e5c727143.woff",
     "static/media/uicons-brands-MQU4AHEF.woff2": "/Amazon/static/media/uicons-brands-MQU4AHEF.4dc54c67b0130a18171d.woff2",
     "index.html": "/Amazon/index.html",
-    "main.389e36c2.css.map": "/Amazon/static/css/main.389e36c2.css.map",
-    "main.cbf2ff7c.js.map": "/Amazon/static/js/main.cbf2ff7c.js.map",
+    "main.5d35b771.css.map": "/Amazon/static/css/main.5d35b771.css.map",
+    "main.d16702cf.js.map": "/Amazon/static/js/main.d16702cf.js.map",
     "787.d3befce1.chunk.js.map": "/Amazon/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.389e36c2.css",
-    "static/js/main.cbf2ff7c.js"
+    "static/css/main.5d35b771.css",
+    "static/js/main.d16702cf.js"
   ]
 }
