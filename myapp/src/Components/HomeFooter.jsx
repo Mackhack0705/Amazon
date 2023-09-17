@@ -4,7 +4,7 @@ import '../style/homefooter.css'
 function HomeFooter() {
   return (
     <div className='footer'>
-      <table style={{width:800}} className='table1'>
+      <table className='table1'>
         <tr className='row1'>
             <td><p className='para'>AbeBooks</p></td>
             <td><p className='para'>Amazon Web Services</p></td>

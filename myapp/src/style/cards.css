@@ -80,6 +80,7 @@
   /* lg */
   @media (max-width: 1024px) {
     .card {
+    /* padding-top: 0px !important; */
       width: 16rem;
       height: 36rem;
     }
@@ -92,7 +93,8 @@
   /* md */
   @media (max-width: 768px) {
     .card {
-      width: 25rem !important;
+      padding-top: 0px !important;
+      width: 22rem !important;
       height: 20rem !important;
     }
     .img {
