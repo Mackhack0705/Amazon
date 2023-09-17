@@ -124,23 +124,63 @@
   /* sm */
   @media (max-width: 640px) {
     .card {
-      max-width: 14rem;
-      height: 34rem;
-    }
-    .img {
-        width: 12rem !important;
-        height: 11rem !important;
-    }
+        width: 25rem !important;
+        height: 20rem !important;
+      }
+      .img {
+          margin-top: 15% !important;
+          width: 10rem !important;
+          height: 8rem !important;
+      }
+      .pro-box {
+          display: flex;
+      }
+      .title {
+          margin-top: 1% !important;
+          font-size: 1rem !important;
+      }
+      .price {
+          font-size: 1rem;
+      }
+      .rate {
+          font-size: 0.8rem;
+      }
+      .sup {
+          font-size: 0.6rem;
+      }
+      .txt {
+          font-size: 0.4rem;
+      }
   }
   
   /* xs */
   @media (max-width: 475px) {
     .card {
-      width: 13rem;
-      max-height: 38rem;
-    }
-    .img {
-        width: 11rem !important;
-        height: 10rem !important;
-    }
+        width: 25rem !important;
+        height: 20rem !important;
+      }
+      .img {
+          margin-top: 15% !important;
+          width: 10rem !important;
+          height: 8rem !important;
+      }
+      .pro-box {
+          display: flex;
+      }
+      .title {
+          margin-top: 1% !important;
+          font-size: 1rem !important;
+      }
+      .price {
+          font-size: 1rem;
+      }
+      .rate {
+          font-size: 0.8rem;
+      }
+      .sup {
+          font-size: 0.6rem;
+      }
+      .txt {
+          font-size: 0.4rem;
+      }
   }
